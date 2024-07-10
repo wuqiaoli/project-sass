@@ -2,9 +2,34 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title></title>
+		<title>学习Sass</title>
+		<style>
+			body{
+				margin: 0;
+				padding:  20px;
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="./css/index.css" />
 	</head>
 	<body>
-		
+		<div class="syntax1">变量的声明与引用</div>
+		<div class="syntax2">
+			<div>css @import 与 sass @import 区别</div>
+			<div>css @import 执行顺序：后果是只有执行到@import时，浏览器才会去下载其他css文件，这导致页面加载起来特别慢。</div>
+			<div>sass @import 执行顺序：在生成css文件时就把相关文件导入进来</div>
+		</div>
+		<div class="syntax3">
+			<h1>嵌套CSS 规则</h1>
+			<h2>h1h1h1h1h1h1h1h1h1h1</h2>
+			<h3>h2h2h2h2h2hh2hh2h2h2hh2</h3>
+			<h4>h3h3h3h3h3hh3h3h3h3h</h4>
+			<div class="syntax3-solid">父选择器的标识符&;</div>
+		</div>
+		<div class="syntax4">
+			<h1>混合器</h1>
+			<h2>混合器传参#ff7216</h2>
+			<h3>混合器传参#18acff</h3>
+			<h4>默认参数值#fd1d1d</h4>
+		</div>
 	</body>
 </html>

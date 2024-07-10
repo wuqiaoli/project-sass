@@ -1,0 +1,55 @@
+.syntax1 {
+  color: blue;
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.syntax2 {
+  background: pink;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.syntax2 div {
+  margin-bottom: 8px;
+}
+.syntax2 div:last-child {
+  margin-bottom: 0;
+}
+
+.syntax3 {
+  background-color: #eaf8ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.syntax3 h1, .syntax3 h2, .syntax3 h3, .syntax3 h4 {
+  color: #009848;
+}
+.syntax3-solid {
+  border-bottom: 1px dashed #9c9c9c;
+}
+.syntax3-solid:hover {
+  border-color: blue;
+  color: #009848;
+  cursor: pointer;
+}
+
+.syntax4 {
+  background-color: #fff4ec;
+  padding: 20px;
+  border-radius: 10px;
+}
+.syntax4 h1 {
+  color: #ff7216;
+}
+.syntax4 h2 {
+  color: #ff7216;
+}
+.syntax4 h3 {
+  color: #18acff;
+}
+.syntax4 h4 {
+  color: #fd1d1d;
+}/*# sourceMappingURL=index.css.map */
